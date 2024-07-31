@@ -220,18 +220,52 @@ h2{
 
 /* 특별관 */
 h3{
-  /* background-color: white; */
-  background-color: brown;
+  background-color: white;
+  /* background-color: brown; */
   height: 400px;
   padding-left: 15%;
 }
 .specialTitle {
   font-size: 26px;
   padding-top: 30px;
+  padding-bottom: 15px;
 }
-.specialImag {
+
+.specialImg {
   height: 263.94px;
   width: 500px;
+}
+.specialMenu {
+  padding-left: 50px;
+  width: 450px;
+  justify-content: space-between;
+}
+
+/* .specialMenu hr{
+  padding-bottom: 20px;
+} */
+
+.specialText {
+  color: black;
+  /* display: flex; */
+  /* text-align: right; */
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/* .specialHr {
+  padding-top: 20px;
+} */
+
+.specialHeshtag {
+  color: #666666;
+  background-color: #f6f6f6;
+  font-size: 14px;
+  padding: 2px 7px;
+}
+
+.specialContainer {
+  display: flex;
 }
 
 h4{
