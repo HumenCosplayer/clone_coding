@@ -294,7 +294,7 @@ h4{
   padding-right: 19px;
   padding-bottom: 5px;
   padding-top: 20px;
-  
+  margin-right: 25px;
 }
 
 /* .packageList {
@@ -341,7 +341,7 @@ h4{
   font-size: 20px;
 }
 
-/* 영화 티켓 */
+/* 영화 관람권 */
 .movieTicket {
   width: 270px;
   height: 350px;
@@ -352,6 +352,7 @@ h4{
   padding-right: 19px;
   padding-bottom: 5px;
   padding-top: 20px;
+  margin-right: 25px;
 }
 
 .movieTicketTitle {
@@ -432,34 +433,135 @@ h5{
   height: 236px;
   padding-left: 15%;
   display: flex;
-  
+}
+.container {
+  border-radius: 15px;
+  border: 1px solid grey;
+  display: flex;
+  width: 63%;
+}
+
+/* 공지사항 */
+.info-section {
+  padding: 24px 26px 20px 30px;
+  width:460px;
+  display: block;
+  border-right: 1px solid gray;
 }
 
 .notice {
   font-size: 16px;
   color: #222222;
+  padding-bottom: 21px;
+  display: flex;
 }
-.notice p {
+.notice a{
   font-size: 14px;
-  text-align: center;
-  margin-top: 2px;
-}
-.info-section {
-  border: 1px solid grey;
-  padding: 24px 26px 20px 30px;
-  width:460px;
-  display: block;
-  border-radius: 15px;
+  text-align: right;
+  margin-left: 30px;
+  color: black;
 }
 
-
+/* 고객센터 */
+.customor-box {
+  display: flex;
+  padding-top: 20px;
 
  
+}
+.customor-title {
+  font-size: 16px;
+  color: #222222;
+  padding-bottom: 21px;
+  text-align: center;
+  padding-top: 20px;
+}
+.customer-text {
+  padding-left: 30px;
+  
+  font-size: 14px;
+  /* margin-left: 30px; */
+  color: black;
+}
 
+.button-line {
+  margin-top: 50px;
+  display:flex;
+}
+.button1 {
+  background-color: #dcdcdc;
+  color: black;
+}
+.button2 {
+  /* padding-left: 15px; */
+  background-color: #dcdcdc;
+  margin-left: 15px;
+}
+.button3 {
+  background-color: #dcdcdc;
+  margin-left: 10px;
+}
+
+
+/* 앱 다운로드 qr코드 */
+.app-download {
+  text-align: center;
+  color: black;
+  margin-top: 4%;
+  padding-left: 3%;
+}
+.app-download strong {
+  font-size: 16px;
+  margin-top: 24px;
+  padding-top: 24px;
+}
+.app-download p {
+  font-size: 12px;
+  margin-top: 2%;
+}
+.qr-img {
+  width: 60px;
+  height: 60px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.bugs-banner {
+  height: 238px;
+  width: 211px;
+  border-radius: 15px;
+  margin-left: 15px;
+}
+
+ 
+/* 회사소개 등 */
 footer{
   background-color: #f8f8f8;
-  height: 500px;
+  height: 450px;
   padding-left: 15%;
+  padding-right: 15%;
+  
+  margin-top: 10%;
 }
+
+
+.footer-text {
+  display: flex;
+  color: black;
+  padding-top: 22%;
+}
+
+.footer-text a {
+  display: flex;
+  font-size: 13px;
+  padding: 6px;
+  
+}
+
+.footer-last p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
 
 
